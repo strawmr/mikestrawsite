@@ -1,3 +1,0 @@
-<template>
-    HI AGAIN
-</template>

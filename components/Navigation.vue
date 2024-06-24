@@ -4,7 +4,7 @@
       <li><NuxtLink to="/" class="text-black hover:text-blue-500">Home</NuxtLink></li>
       <li><NuxtLink to="/about" class="text-black hover:text-blue-500">Bio</NuxtLink></li>
       <li><NuxtLink to="/experience" class="text-black hover:text-blue-500">Experience</NuxtLink></li>
-      <li><NuxtLink to="/projects/allprojects.vue" class="text-black hover:text-blue-500">My Projects</NuxtLink></li>      
+      <li><NuxtLink to="/projects/allprojects" class="text-black hover:text-blue-500">My Projects</NuxtLink></li>      
     </ul>
   </nav>
 </template>

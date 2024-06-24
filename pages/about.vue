@@ -1,7 +1,7 @@
 <script setup>
 
 useHead({
-    title:'About Page',
+    title:'About',
     script:['main.js'],
     meta:[
         {name: 'description',

@@ -1,3 +1,16 @@
+<script setup>
+
+useHead({
+    title:'Home',
+    script:['main.js'],
+    meta:[
+        {name: 'description',
+         content: 'This site is for Mike Straw',
+        }
+    ]
+});
+</script>
+
 <template>
   <div class="flex flex-col md:flex-row items-center text-center md:text-left p-4">
     <div class="flex flex-col items-center md:items-start md:mr-6 mb-6 md:mb-0">
