@@ -46,7 +46,7 @@ const goToProject = (slug) => {
       </p>
 
       <div>
-        <NuxtLink to="/projects/gaminglayoffs">Gaming Layoff Tracker</NuxtLink>
+        <NuxtLink class="text-xl" to="/projects/gaminglayoffs">Gaming Layoff Tracker</NuxtLink>
 
         <!-- <div v-if="loading">
           <p>Loading projects...</p>

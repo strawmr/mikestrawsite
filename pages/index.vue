@@ -1,12 +1,12 @@
 <script setup>
 
 useHead({
-  title: 'Home',
+  title: 'Michael Straw | Web Developer, Journalist, And More!',
   script: ['main.js'],
   meta: [
     {
       name: 'description',
-      content: 'This site is for Mike Straw',
+      content: 'This is the official site for Michael Straw',
     }
   ]
 });
@@ -19,8 +19,8 @@ useHead({
       <h1 class="text-4xl font-ag">Mike Straw</h1>
       <p class="text-lg">I’m a front-end developer with experience in project management, database management, and
         more. </p>
-      <p>My goal is to bring projects to life through development.</p>
-      <p>Like moving into a new home, this website is a WIP. So, please, bare with me as I make it my new online home!</p>
+      <p class="text-lg">My goal is to bring projects to life through development.</p>
+      <p class="text-lg">Like moving into a new home, this website is a WIP. So, please, bare with me as I make it my new online home!</p>
       <div class="flex justify-center md:justify-start space-x-4">
         <a href="https://www.twitter.com/mikestrawmedia" target="_blank" class="text-black hover:text-blue-500 text-4xl"><i
             class="fab fa-twitter"></i></a>
