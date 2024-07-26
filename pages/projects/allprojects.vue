@@ -46,7 +46,9 @@ const goToProject = (slug) => {
       </p>
 
       <div>
-        <div v-if="loading">
+        <NuxtLink to="/projects/gaminglayoffs">Gaming Layoff Tracker</NuxtLink>
+
+        <!-- <div v-if="loading">
           <p>Loading projects...</p>
         </div>
         <div v-else-if="error">
@@ -54,10 +56,10 @@ const goToProject = (slug) => {
         </div>
         <ul v-else>
           <li v-for="project in projects" :key="project.id">
-            <!-- Ensure the slug is passed to goToProject method -->
             <a @click.prevent="goToProject(project.slug)" href="#">{{ project.name }}</a>
           </li>
-        </ul>
+        </ul> -->
+        
       </div>
 
     </div>

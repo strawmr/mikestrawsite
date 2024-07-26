@@ -20,6 +20,7 @@ useHead({
       <p class="text-lg">I’m a front-end developer with experience in project management, database management, and
         more. </p>
       <p>My goal is to bring projects to life through development.</p>
+      <p>Like moving into a new home, this website is a WIP. So, please, bare with me as I make it my new online home!</p>
       <div class="flex justify-center md:justify-start space-x-4">
         <a href="https://www.twitter.com/mikestrawmedia" target="_blank" class="text-black hover:text-blue-500 text-4xl"><i
             class="fab fa-twitter"></i></a>
