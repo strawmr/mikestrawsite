@@ -9,6 +9,9 @@ export default {
         black: '#000000',
         grayish: '#e0dcd7',
       },
+      fontFamily: {
+        ag: ['Agrandir',],
+      },
     },
   },
   plugins: [],

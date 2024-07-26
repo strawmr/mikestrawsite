@@ -41,7 +41,8 @@ onMounted(fetchProjectDetails);
     <p>{{ error }}</p>
   </div>
   <div v-else>
-    <h1>{{ project.name }}</h1>
-    <p>{{ project.details }}</p>
+    <h1 class="text-4xl font-ag">{{ project.name }}</h1>
+    <br/>
+    <p>{{ project.description }}</p>
   </div>
 </template>

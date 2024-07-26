@@ -38,21 +38,30 @@ const goToProject = (slug) => {
 </script>
 
 <template>
-  <h1>My Projects</h1>
-  <p>
-    Throughout my career, I've worked on a number of fun projects. Here are some
-    of them to learn about. Simply click on a project for more information.
-  </p>
-  <div v-if="loading">
-    <p>Loading projects...</p>
+  <div class="flex flex-col md:flex-row items-center text-center md:text-left p-4">
+    <div class="flex flex-col items-center md:items-start gap-4">
+      <h1 class="text-4xl font-ag">My Projects</h1>
+      <p class=""> Throughout my career, I've worked on a number of fun projects. Here is some of the work I've done
+        both as side projects and as work for my employeers.
+      </p>
+
+      <div>
+        <div v-if="loading">
+          <p>Loading projects...</p>
+        </div>
+        <div v-else-if="error">
+          <p>{{ error }}</p>
+        </div>
+        <ul v-else>
+          <li v-for="project in projects" :key="project.id">
+            <!-- Ensure the slug is passed to goToProject method -->
+            <a @click.prevent="goToProject(project.slug)" href="#">{{ project.name }}</a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
   </div>
-  <div v-else-if="error">
-    <p>{{ error }}</p>
-  </div>
-  <ul v-else>
-    <li v-for="project in projects" :key="project.id">
-      <!-- Ensure the slug is passed to goToProject method -->
-      <a @click.prevent="goToProject(project.slug)" href="#">{{ project.name }}</a>
-    </li>
-  </ul>
+  <br />
+
 </template>

@@ -5,3 +5,8 @@
 body {
 
 }
+
+@font-face {
+    font-family: 'Agrandir';
+    src: url('~/assets/fonts/Agrandir-TextBold.woff')  format('woff'),
+}

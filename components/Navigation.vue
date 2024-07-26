@@ -1,6 +1,6 @@
 <template>
   <nav class="bg-white p-4 pt-6">
-    <ul class="flex justify-center space-x-6 md:text-xl font-bold text-black">
+    <ul class="flex justify-center space-x-6 md:text-2xl font-ag text-black">
       <li><NuxtLink to="/" class="text-black hover:text-blue-500">Home</NuxtLink></li>
       <li><NuxtLink to="/about" class="text-black hover:text-blue-500">Bio</NuxtLink></li>
       <li><NuxtLink to="/experience" class="text-black hover:text-blue-500">Experience</NuxtLink></li>
