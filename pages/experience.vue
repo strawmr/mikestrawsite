@@ -17,8 +17,7 @@ useHead({
       <h1 class="text-4xl font-ag">Where I've Been</h1>
       <p class="">Throughout my time as a developer, I've worked for a number of companies. From larger hospitals to small start-ups, I'm eager to tackle any challenge that comes up.</p>
       <p class="">You can see a rundown of where I've been and what I've done below.</p>
-      <a href="./assets/files/MikeStraw_Resume_2024.pdf" >Download</a>
- 
+      <a href="/MikeStrawResume2024.pdf" download>Download</a>
       
 
     </div>

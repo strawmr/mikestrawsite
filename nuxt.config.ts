@@ -17,5 +17,7 @@ export default defineNuxtConfig({
     config: {},
     viewer: true,
   },
-
+  dir: {
+    static: 'static'
+  },
 })
