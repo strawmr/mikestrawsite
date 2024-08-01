@@ -41,14 +41,37 @@ const goToProject = (slug) => {
   <div class="flex flex-col md:flex-row items-center text-center md:text-left p-4">
     <div class="flex flex-col items-center md:items-start gap-4">
       <h1 class="text-4xl font-ag">My Projects</h1>
-      <p class=""> Throughout my career, I've worked on a number of fun projects. Here is some of the work I've done
-        both as side projects and as work for my employeers.
+      <p class=""> Throughout my career, I've worked on a number of projects. Whether it's on my own or while I was
+        working for a company, I've been able to build some really fun things that I think showcase my abilities.
       </p>
+      <p>Here are a few of my favorite ones over the last couple of years:</p>
 
-      <div>
-        <NuxtLink class="text-xl" to="/projects/gaminglayoffs">Gaming Layoff Tracker</NuxtLink>
+      <div class="contrainer mx-auto">
+        <div class="grid m-auto grid-cols-3 gap-12">
+        <div>
+          <button
+            class="bg-sky-300 hover:bg-sky-500 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
+            <NuxtLink class="text-xl" to="/projects/gaminglayoffs">Video Game Layoff Tracker</NuxtLink>
+          </button>
+        </div>
 
-        <!-- <div v-if="loading">
+        <div>
+          <button
+            class="bg-sky-300 hover:bg-sky-500 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
+            <NuxtLink class="text-xl" to="/projects/gaminglayoffs">Wellconnected</NuxtLink>
+          </button>
+        </div>
+        <div>
+          <button
+            class="bg-sky-300 hover:bg-sky-500 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
+            <NuxtLink class="text-xl" to="/projects/gaminglayoffs">Impact HQ</NuxtLink>
+          </button>
+        </div>
+      </div>
+      </div>
+
+      <!-- <div>   
+       <div v-if="loading">
           <p>Loading projects...</p>
         </div>
         <div v-else-if="error">
@@ -58,9 +81,8 @@ const goToProject = (slug) => {
           <li v-for="project in projects" :key="project.id">
             <a @click.prevent="goToProject(project.slug)" href="#">{{ project.name }}</a>
           </li>
-        </ul> -->
-        
-      </div>
+        </ul> 
+      </div> -->
 
     </div>
   </div>
