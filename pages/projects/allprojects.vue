@@ -41,30 +41,30 @@ const goToProject = (slug) => {
   <div class="flex flex-col md:flex-row items-center text-center md:text-left p-4">
     <div class="flex flex-col items-center md:items-start gap-4">
       <h1 class="text-4xl font-ag">My Projects</h1>
-      <p class=""> Throughout my career, I've worked on a number of projects. Whether it's on my own or while I was
+      <p class="">Throughout my career, I've worked on a number of projects. Whether it's on my own or while I was
         working for a company, I've been able to build some really fun things that I think showcase my abilities.
       </p>
       <p>Here are a few of my favorite ones over the last couple of years:</p>
 
       <div class="contrainer mx-auto">
-        <div class="grid m-auto grid-cols-3 gap-12">
-        <div>
+        <div class="grid m-auto  md:grid-cols-3 grid-cols-1 gap-8 text-center">
+        <div class="text-center">
           <button
-            class="bg-sky-300 hover:bg-sky-500 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
-            <NuxtLink class="text-xl" to="/projects/gaminglayoffs">Video Game Layoff Tracker</NuxtLink>
+            class="bg-sky-300 w-full hover:bg-sky-500 text-gray-800 font-bold py-2 px-4 rounded">
+            <NuxtLink class="text-xl " to="/projects/gaminglayoffs">Video Game Layoff Tracker</NuxtLink>
           </button>
         </div>
 
-        <div>
+        <div class="text-center">
           <button
-            class="bg-sky-300 hover:bg-sky-500 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
-            <NuxtLink class="text-xl" to="/projects/gaminglayoffs">Wellconnected</NuxtLink>
+            class="bg-sky-300 w-full hover:bg-sky-500 text-gray-800 font-bold py-2 px-4 rounded items-center">
+            <NuxtLink class="text-xl " to="/projects/gaminglayoffs">Wellconnected</NuxtLink>
           </button>
         </div>
         <div>
           <button
-            class="bg-sky-300 hover:bg-sky-500 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
-            <NuxtLink class="text-xl" to="/projects/gaminglayoffs">Impact HQ</NuxtLink>
+            class="bg-sky-300 w-full hover:bg-sky-500 text-gray-800 font-bold py-2 px-4 rounded items-center">
+            <NuxtLink class="text-xl " to="/projects/gaminglayoffs">Impact HQ</NuxtLink>
           </button>
         </div>
       </div>
