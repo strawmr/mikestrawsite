@@ -45,6 +45,7 @@ const goToProject = (slug) => {
         working for a company, I've been able to build some really fun things that I think showcase my abilities.
       </p>
       <p>Here are a few of my favorite ones over the last couple of years:</p>
+      <em>NOTE: More projects and work examples to be added soon with more detail.</em>
 
       <div class="contrainer mx-auto">
         <div class="grid m-auto  md:grid-cols-3 grid-cols-1 gap-8 text-center">
@@ -55,7 +56,7 @@ const goToProject = (slug) => {
           </button>
         </div>
 
-        <div class="text-center">
+        <!--<div class="text-center">
           <button
             class="bg-sky-300 w-full hover:bg-sky-500 text-gray-800 font-bold py-2 px-4 rounded items-center">
             <NuxtLink class="text-xl " to="/projects/gaminglayoffs">Wellconnected</NuxtLink>
@@ -66,7 +67,7 @@ const goToProject = (slug) => {
             class="bg-sky-300 w-full hover:bg-sky-500 text-gray-800 font-bold py-2 px-4 rounded items-center">
             <NuxtLink class="text-xl " to="/projects/gaminglayoffs">Impact HQ</NuxtLink>
           </button>
-        </div>
+        </div>-->
       </div>
       </div>
 
