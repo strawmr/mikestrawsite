@@ -45,7 +45,7 @@ const goToProject = (slug) => {
         working for a company, I've been able to build some really fun things that I think showcase my abilities.
       </p>
       <p>Here are a few of my favorite ones over the last couple of years:</p>
-      <em>NOTE: More projects and work examples to be added soon with more detail on each. In the meantime, you can
+      <em><strong>NOTE:</strong> More projects and work examples to be added soon with more detail on each. In the meantime, you can
         visit them directly below.</em>
 
       <div class="contrainer mx-auto">
@@ -57,7 +57,7 @@ const goToProject = (slug) => {
             <a href="https://gaminglayoffs.com" target="_blank">
               <button
                 class="bg-sky-300 hover:bg-sky-500 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
-                <span>Visit GamingLayoffs.com</span>
+                <span>Visit GamingLayoffs.com (Custom gaming layoffs tracker)</span>
               </button>
             </a>
           </div>
@@ -77,7 +77,7 @@ const goToProject = (slug) => {
             <a href="https://getwellconnected.co" target="_blank">
               <button
                 class="bg-sky-300 hover:bg-sky-500 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
-                <span>Visit Wellconnected.co</span>
+                <span>Visit Wellconnected.co (Wellconnected website)</span>
               </button>
             </a>
           </div>
@@ -85,7 +85,7 @@ const goToProject = (slug) => {
             <a href="https://impact-hq.org" target="_blank">
               <button
                 class="bg-sky-300 hover:bg-sky-500 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
-                <span>Visit Impact HQ</span>
+                <span>Visit Impact HQ (only landing page available w/o login)</span>
               </button>
             </a>
           </div>
