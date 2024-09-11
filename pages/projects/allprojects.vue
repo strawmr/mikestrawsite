@@ -45,18 +45,23 @@ const goToProject = (slug) => {
         working for a company, I've been able to build some really fun things that I think showcase my abilities.
       </p>
       <p>Here are a few of my favorite ones over the last couple of years:</p>
-      <em>NOTE: More projects and work examples to be added soon with more detail.</em>
+      <em>NOTE: More projects and work examples to be added soon with more detail on each. In the meantime, you can
+        visit them directly below.</em>
 
       <div class="contrainer mx-auto">
         <div class="grid m-auto  md:grid-cols-3 grid-cols-1 gap-8 text-center">
-        <div class="text-center">
-          <button
-            class="bg-sky-300 w-full hover:bg-sky-500 text-gray-800 font-bold py-2 px-4 rounded">
-            <NuxtLink class="text-xl " to="/projects/gaminglayoffs">Video Game Layoff Tracker</NuxtLink>
-          </button>
-        </div>
-
-        <!--<div class="text-center">
+          <div class="text-center">
+            <!-- <button class="bg-sky-300 w-full hover:bg-sky-500 text-gray-800 font-bold py-2 px-4 rounded">
+              <NuxtLink class="text-xl " to="/projects/gaminglayoffs">Video Game Layoff Tracker</NuxtLink>
+            </button> -->
+            <a href="https://gaminglayoffs.com" target="_blank">
+              <button
+                class="bg-sky-300 hover:bg-sky-500 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
+                <span>Visit GamingLayoffs.com</span>
+              </button>
+            </a>
+          </div>
+          <!--<div class="text-center">
           <button
             class="bg-sky-300 w-full hover:bg-sky-500 text-gray-800 font-bold py-2 px-4 rounded items-center">
             <NuxtLink class="text-xl " to="/projects/gaminglayoffs">Wellconnected</NuxtLink>
@@ -68,7 +73,39 @@ const goToProject = (slug) => {
             <NuxtLink class="text-xl " to="/projects/gaminglayoffs">Impact HQ</NuxtLink>
           </button>
         </div>-->
-      </div>
+          <div class="text-center">
+            <a href="https://getwellconnected.co" target="_blank">
+              <button
+                class="bg-sky-300 hover:bg-sky-500 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
+                <span>Visit Wellconnected.co</span>
+              </button>
+            </a>
+          </div>
+          <div class="text-center">
+            <a href="https://impact-hq.org" target="_blank">
+              <button
+                class="bg-sky-300 hover:bg-sky-500 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
+                <span>Visit Impact HQ</span>
+              </button>
+            </a>
+          </div>
+          <div class="text-center">
+            <a href="https://neheatingandcooling.com" target="_blank">
+              <button
+                class="bg-sky-300 hover:bg-sky-500 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
+                <span>Visit Northeast Heating & Cooling </span>
+              </button>
+            </a>
+          </div>
+          <div class="text-center">
+            <a href="https://3ccannabis.shop/strain/crystal-skull-og/" target="_blank">
+              <button
+                class="bg-sky-300 hover:bg-sky-500 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
+                <span>Visit 3C Farms (Strain-specific Page) </span>
+              </button>
+            </a>
+          </div>
+        </div>
       </div>
 
       <!-- <div>   
